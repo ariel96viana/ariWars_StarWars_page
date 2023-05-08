@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AriWars - A long time ago...</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css" />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="navbar navbar-expand-lg">
+        <div class="container">
+          <h1>AriWars</h1>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <nav class="collapse navbar-collapse justify-content-end" id="menu">
+            <ul class="nav navbar-nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="#episodios-lucas"
+                  >Episódios Lucas Films</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#episodios-disney"
+                  >Episódios Disney</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contate-me</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="carousel-container">
+      <div
+        id="carousel-top"
+        class="carousel carousel-fade slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div data-bs-interval="2000" class="carousel-item active">
+            <img
+              class="carousel-img d-block"
+              src="https://i.pinimg.com/originals/a4/5e/e4/a45ee418aa77783d1a847190596d9796.jpg"
+              alt=""
+            />
+          </div>
+          <div data-bs-interval="2000" class="carousel-item">
+            <img
+              class="carousel-img d-block"
+              src="https://wallpapers.com/images/featured/rzma8krur1w1m4rn.jpg"
+              alt=""
+            />
+          </div>
+          <div data-bs-interval="2000" class="carousel-item">
+            <img
+              class="carousel-img d-block"
+              src="https://i.pinimg.com/originals/a5/54/04/a554048d74211aa83a05683d569c6592.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <button
+          data-bs-target="#carousel-top"
+          data-bs-slide="prev"
+          class="carousel-control-prev"
+          type="button"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          data-bs-target="#carousel-top"
+          data-bs-slide="next"
+          class="carousel-control-next"
+          type="button"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="carousel-top"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="carousel-top"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="carousel-top"
+            data-bs-slide-to="2"
+          ></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards-container">
+      <div class="row">
+        <div id="episodios-lucas" class="filmes col-12">
+          <h2>Episódios</h2>
+          <h3>Lucas Films</h3>
+          <hr />
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <img
+              src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTlSOm0a_zpd7Jsi44BHOTEoTH2U_dR54qG1lPiZkye3v7f7Klr"
+              alt="Poster do filme StarWars: A ameaça fantasma."
+            />
+            <div class="card-body">
+              <h4 class="card-title">StarWars Episódio 1</h4>
+              <h5 class="card-subtitle">A ameaça fantasma</h5>
+
+              <footer class="card-footer">
+                <button
+                  class="card-leiamais-btn btn btn-dark"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#leiaMais-Ep1"
+                  aria-expanded="false"
+                  aria-controls="leiaMais-Ep1"
+                >
+                  Leia Mais
+                </button>
+                <div class="collapse" id="leiaMais-Ep1">
+                  <div style="width: 100%">
+                    Obi-Wan e seu mentor embarcam em uma perigosa aventura na
+                    tentativa de salvar o planeta das garras de Darth Sidious.
+                    Durante a viagem, eles conhecem um habilidoso menino e
+                    decidem treiná-lo para se tornar um Jedi. Mas o tempo irá
+                    revelar que as coisas nem sempre são o que aparentam
+                    ser.Obi-Wan e seu mentor embarcam em uma perigosa aventura
+                    na tentativa de salvar o planeta das garras de Darth
+                    Sidious. Durante a viagem, eles conhecem um habilidoso
+                    menino e decidem treiná-lo para se tornar um Jedi. Mas o
+                    tempo irá revelar que as coisas nem sempre são o que
+                    aparentam ser.
+                  </div>
+                </div>
+              </footer>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <img
+              src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQB4QH9rgDS2rugRdFG0OgeJrM1ty1JXsU1EX7JG7Xcc6deIH07"
+              alt="Poster do filme StarWars: Ataque dos Clones."
+            />
+            <div class="card-body">
+              <h4 class="card-title">StarWars Episódio 2</h4>
+              <h5 class="card-subtitle">Ataque dos Clones</h5>
+
+              <footer class="card-footer">
+                <button
+                  class="card-leiamais-btn btn btn-dark"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#leiaMais-Ep2"
+                  aria-expanded="false"
+                  aria-controls="leiaMais-Ep2"
+                >
+                  Leia Mais
+                </button>
+                <div class="collapse" id="leiaMais-Ep2">
+                  <div style="width: 100%">
+                    Tentado por promessas de poder, Anakin Skywalker se aproxima
+                    de Darth Sidious e participa de um plano para acabar com os
+                    Cavaleiros Jedi.Tentado por promessas de poder, Anakin
+                    Skywalker se aproxima de Darth Sidious e participa de um
+                    plano para acabar com os Cavaleiros Jedi.
+                  </div>
+                </div>
+              </footer>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh3Ing1lz5S6XRVBTUznLNtGQKmdCYQZQodcFF6Q1Gp__HVWli"
+              alt="Poster do filme StarWars: A vingança dos Sith."
+            />
+            <div class="card-body">
+              <h4 class="card-title">StarWars Episódio 3</h4>
+              <h5 class="card-subtitle">A vingança dos Sith</h5>
+              <footer class="card-footer">
+                <button
+                  class="card-leiamais-btn btn btn-dark"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#leiaMais-Ep3"
+                  aria-expanded="false"
+                  aria-controls="leiaMais-Ep3"
+                >
+                  Leia Mais
+                </button>
+                <div class="collapse" id="leiaMais-Ep3">
+                  <div style="width: 100%">
+                    As Guerras Clônicas estão em pleno andamento e Anakin
+                    Skywalker mantém um elo de lealdade com Palpatine, ao mesmo
+                    tempo em que luta para que seu casamento com Padmé Amidala
+                    não seja afetado por esta situação. Seduzido por promessas
+                    de poder, Anakin se aproxima cada vez mais de Darth Sidious
+                    até se tornar o temível Darth Vader. Juntos eles tramam um
+                    plano para aniquilar de uma vez por todas com os cavaleiros
+                    jedi.
+                  </div>
+                </div>
+              </footer>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgDnDH4nBpREQqcfIgSAuZQ1n4N31hGZo-Dn2jZH3pga-xuo0q"
+              alt="Poster do filme StarWars: Uma Nova Esperança."
+            />
+            <div class="card-body">
+              <h4 class="card-title">StarWars Episódio 4</h4>
+              <h5 class="card-subtitle">Uma Nova Esperança</h5>
+              <footer class="card-footer">
+                <button
+                  class="card-leiamais-btn btn btn-dark"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#leiaMais-Ep4"
+                  aria-expanded="false"
+                  aria-controls="leiaMais-Ep4"
+                >
+                  Leia Mais
+                </button>
+                <div class="collapse" id="leiaMais-Ep4">
+                  <div style="width: 100%">
+                    A princesa Leia é mantida refém pelas forças imperiais
+                    comandadas por Darth Vader. Luke Skywalker e o capitão Han
+                    Solo precisam libertá-la e restaurar a liberdade e a justiça
+                    na galáxia.
+                  </div>
+                </div>
+              </footer>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh3Ing1lz5S6XRVBTUznLNtGQKmdCYQZQodcFF6Q1Gp__HVWli"
+              alt="Poster do filme StarWars: O Império Contra-Ataca."
+            />
+            <div class="card-body">
+              <h4 class="card-title">StarWars Episódio 5</h4>
+              <h5 class="card-subtitle">O Império Contra-Ataca</h5>
+
+              <footer class="card-footer">
+                <button
+                  class="card-leiamais-btn btn btn-dark"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#leiaMais-Ep5"
+                  aria-expanded="false"
+                  aria-controls="leiaMais-Ep5"
+                >
+                  Leia Mais
+                </button>
+                <div class="collapse" id="leiaMais-Ep5">
+                  <div style="width: 100%">
+                    Yoda treina Luke Skywalker para ser um cavaleiro Jedi. Han
+                    Solo corteja a Princesa Leia enquanto Darth Vader retorna
+                    para combater as forças rebeldes que tentam salvar a
+                    galáxia.
+                  </div>
+                </div>
+              </footer>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <img
+              src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQr4kO9vjPzbMRIcCHbLWg-k0EtQi1SEzBubJGdP_rxWtU1Ieqb"
+              alt="Poster do filme StarWars: O Retorno de Jedi."
+            />
+            <div class="card-body card-dark">
+              <h4 class="card-title">StarWars Episódio 6</h4>
+              <h5 class="card-subtitle">O Retorno de Jedi</h5>
+
+              <footer class="card-footer">
+                <button
+                  class="card-leiamais-btn btn btn-dark"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#leiaMais-Ep6"
+                  aria-expanded="false"
+                  aria-controls="leiaMais-Ep6"
+                >
+                  Leia Mais
+                </button>
+                <div class="collapse" id="leiaMais-Ep6">
+                  <div style="width: 100%">
+                    Luke Skywalker e seus amigos viajam para Tatooine e salvam
+                    seu amigo Han Solo do lorde do crime Jabba o Hutt. O Império
+                    Galático começou a construção de uma segunda Estrela da
+                    Morte, visando aniquilar a Aliança Rebelde, mas seu término
+                    está comprometido pela Frota Rebelde, que insiste em dar um
+                    fim ao Império. Neste meio tempo, Luke Skywalker luta para
+                    resgatar Vader, um ex-Jedi, de volta do lado sombrio da
+                    Força.
+                  </div>
+                </div>
+              </footer>
+            </div>
+          </div>
+        </div>
+
+        <div id="episodios-disney" class="filmes col-12">
+          <hr />
+          <h3>Disney</h3>
+          <hr />
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <img
+              src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQI3FABq3pqBEPPxcI1jETqQhGflUuYGP3D67Grrpk9sxUki1_-"
+              alt="Poster do filme StarWars: O Despertar da Força."
+            />
+            <div class="card-body">
+              <h4 class="card-title">StarWars Episódio 7</h4>
+              <h5 class="card-subtitle">O Despertar da Força</h5>
+
+              <footer class="card-footer">
+                <button
+                  class="card-leiamais-btn btn btn-dark"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#leiaMais-Ep7"
+                  aria-expanded="false"
+                  aria-controls="leiaMais-Ep7"
+                >
+                  Leia Mais
+                </button>
+                <div class="collapse" id="leiaMais-Ep7">
+                  <div style="width: 100%">
+                    A queda de Darth Vader e do Império levou ao surgimento de
+                    uma nova força sombria: a Primeira Ordem. Eles procuram o
+                    jedi Luke Skywalker, desaparecido. A resistência tenta
+                    desesperadamente encontrá-lo antes para salvar a galáxia.
+                  </div>
+                </div>
+              </footer>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTSJhG_IS022kJUbjJOkJB-2jh90NqDSQ_42_pEHDlygb3JUYI"
+              alt="Poster do filme StarWars: Os últimos Jedi."
+            />
+            <div class="card-body">
+              <h4 class="card-title">StarWars Episódio 8</h4>
+              <h5 class="card-subtitle">Os últimos Jedi</h5>
+
+              <footer class="card-footer">
+                <button
+                  class="card-leiamais-btn btn btn-dark"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#leiaMais-Ep8"
+                  aria-expanded="false"
+                  aria-controls="leiaMais-Ep8"
+                >
+                  Leia Mais
+                </button>
+                <div class="collapse" id="leiaMais-Ep8">
+                  <div style="width: 100%">
+                    A tranquila e solitária vida de Luke Skywalker sofre uma
+                    reviravolta quando ele conhece Rey, uma jovem que mostra
+                    fortes sinais da Força. O desejo dela de aprender o estilo
+                    dos Jedi força Luke a tomar uma decisão que mudará sua vida
+                    para sempre. Enquanto isso, Kylo Ren e o General Hux lideram
+                    a Primeira Ordem para um ataque total contra Leia e a
+                    Resistência pela supremacia da galáxia.
+                  </div>
+                </div>
+              </footer>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <img
+              src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS3raWpqxulmDawzYZmlYyRZv-YAq9Qf9ehmgzDg7OkJL50Wlca"
+              alt="Poster do filme StarWars: Ascenção Skywalker."
+            />
+            <div class="card-body">
+              <h4 class="card-title">StarWars Episódio 9</h4>
+              <h5 class="card-subtitle">Ascenção Skywalker</h5>
+
+              <footer class="card-footer">
+                <button
+                  class="card-leiamais-btn btn btn-dark"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#leiaMais-Ep9"
+                  aria-expanded="false"
+                  aria-controls="leiaMais-Ep9"
+                >
+                  Leia Mais
+                </button>
+                <div class="collapse" id="leiaMais-Ep9">
+                  <div style="width: 100%">
+                    Com o retorno do Imperador Palpatine, a Resistência toma a
+                    frente da batalha. Treinando para ser uma completa Jedi, Rey
+                    se encontra em conflito com passado e futuro, e teme pelas
+                    respostas que pode conseguir com Kylo Ren.
+                  </div>
+                </div>
+              </footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="contact" class="contact-me">
+      <h2>Contact:</h2>
+      <div class="footer-container">
+        <div>
+          <a href="https://github.com/ariel96viana" target="_blank">
+            <img src="./images/github.svg" alt="github logotipo" />
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://www.linkedin.com/in/ariel-oliveira-2a620620b/"
+            target="_blank"
+          >
+            <img src="./images/linkedin.svg" alt="linkedin logotipo" />
+          </a>
+        </div>
+      </div>
+      <h6 class="copyright">Design and development - Ariel Oliveira</h6>
+    </footer>
+    <div class="fab-home">
+      <button class="floating-home-btn" type="button">
+        <a href="#header">
+          <img src="./images/home-icon.svg" alt="" />
+        </a>
+      </button>
+    </div>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

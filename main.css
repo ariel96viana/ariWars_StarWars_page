@@ -1,0 +1,96 @@
+header {
+  background-color: #181616;
+  color: #d31515;
+}
+.nav-link {
+  color: #d31515;
+}
+.nav-link:hover {
+  color: #fff;
+}
+.navbar-toggler {
+  background-color: #d31515;
+}
+.navbar-toggler:hover {
+  background-color: #fff;
+}
+
+.carousel-container {
+  background-color: #181616f5;
+  padding: 20px;
+  justify-content: center;
+}
+
+.carousel {
+  margin: 0 auto;
+  max-width: 60%;
+}
+
+.carousel-img {
+  width: 100%;
+}
+
+.filmes {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.filmes > h2 {
+  font-size: 50px;
+}
+
+.cards-container {
+  color: #d31515;
+  background-color: #181616d3;
+  padding: 36px;
+}
+
+.card {
+  margin-bottom: 16px;
+  background-color: #181616;
+  color: #d31515;
+}
+
+.card img {
+  max-height: 760px;
+}
+
+.card-leiamais-btn {
+  width: 100%;
+}
+
+.floating-home-btn {
+  margin: 24px 16px;
+  position: fixed;
+  border: 1px solid #d31515;
+  width: 50px;
+  right: 0;
+  bottom: 0;
+  background-color: #181616;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.floating-home-btn img {
+  width: 100%;
+}
+
+.contact-me {
+  padding: 4px;
+  height: 140px;
+  background-color: #181616;
+  color: #d31515;
+}
+.footer-container {
+  margin: 16px;
+  display: flex;
+  gap: 50px;
+}
+.footer-container img {
+  width: 40px;
+}
+
+.copyright {
+  text-align: right;
+  margin: 0 16px 16px 0;
+}
